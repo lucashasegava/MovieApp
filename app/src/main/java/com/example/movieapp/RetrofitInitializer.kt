@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class RetrofitInitializer{
 
         private val retrofit = Retrofit.Builder()
-            .baseUrl("https://api.themoviedb.org/")
+            .baseUrl("https://api.themoviedb.org/3/movie/popular?")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
