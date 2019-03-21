@@ -6,5 +6,6 @@ interface MovieContract{
     }
     interface Presenter<View>{
 
+
     }
 }
